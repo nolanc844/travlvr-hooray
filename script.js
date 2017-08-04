@@ -94,8 +94,9 @@ function nextMonument1() {
 // }
 
 function placeToHome(){
-    // var backgroundChange = document.getElementById("background");
-    // backgroundChange.setAttribute("src", "blackpic.jpg");
+    var backgroundChange = document.getElementById("background");
+    backgroundChange.setAttribute("src", "");
+    backgroundChange.setAttribute("color", "black")
     var placeChange = document.getElementById("changeToBeach2");
     placeChange.setAttribute("visible", "false");
     var backToHome = document.getElementById("backToHome");
